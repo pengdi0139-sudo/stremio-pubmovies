@@ -1,0 +1,26 @@
+{
+ "id": "com.pengdi0139.pubmovies",
+ "version": "1.0.0",
+ "name": "公版电影",
+ "description": "Internet Archive 公版老电影，HTTP 直链免费播放（无 P2P）",
+ "resources": [
+  "catalog",
+  "stream"
+ ],
+ "types": [
+  "movie"
+ ],
+ "catalogs": [
+  {
+   "type": "movie",
+   "id": "archive",
+   "name": "公版电影"
+  }
+ ],
+ "idPrefixes": [
+  "pdm_"
+ ],
+ "behaviorHints": {
+  "configurable": false
+ }
+}
